@@ -1,0 +1,83 @@
+.projectImage {
+  width: 90%;
+  height: 300px;
+  object-fit: contain;
+}
+.projects {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+.project {
+  /* border: 2px solid black; */
+  display: flex;
+  width: 43%;
+  box-shadow: 7px 7px 14px #a6a6a6, -7px -7px 14px #ffffff;
+  border-radius: 10px;
+}
+#Projects h3 {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.projectImageDiv {
+  background: linear-gradient(purple, #6c5ce7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0% 25% 25% 0%;
+  flex: 0.5;
+}
+.projectDesc {
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.projectBtn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+}
+.projectDesc div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.project:hover {
+  background-color: #EEEEFC;
+  box-shadow: none;
+}
+.projectDesc h4 {
+  color: #3147ff;
+  font-weight: bold;
+  font-size: 18px;
+}
+.pDesc {
+  /* border: 2px solid black; */
+  line-height: 1.2;
+}
+
+/* @media screen and (max-width: 1185px) {
+  .project{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .projectImageDiv {
+    border-radius: 10px;
+  }
+  .projectBtn{
+    padding: 10px 0px;
+    width: 100px;
+  }
+} */

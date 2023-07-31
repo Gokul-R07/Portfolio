@@ -1,0 +1,43 @@
+#About {
+  display: flex;
+}
+#About:focus {
+  animation: aboutSlide 2s ease;
+}
+@keyframes aboutSlide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.aboutRight {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.downloadIcon {
+  transform: scale(1.1);
+}
+.downloadBtn {
+  padding: 15px 14px;
+}
+.aboutRight p {
+  text-align: justify;
+}
+/* #About,#About div
+{
+    border: 2px solid red;
+} */
+/* 
+@media screen and (max-width: 1107px) {
+  .webDevVideo{
+        width: 300px;
+  }
+} */
