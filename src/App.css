@@ -33,7 +33,7 @@
   background-color: black;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 665px) {
   .App {
     flex-direction: column;
   }
