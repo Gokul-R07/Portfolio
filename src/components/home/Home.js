@@ -39,8 +39,8 @@ const Home = () => {
 
     const interval = setInterval(() => {
       // Increment the rotation angle by 1 degree every 100 milliseconds
-      // setRotationAngle1((prevAngle) => prevAngle - 1);
-      // setRotationAngle2((prevAngle) => prevAngle + 1);
+      setRotationAngle1((prevAngle) => prevAngle - 1);
+      setRotationAngle2((prevAngle) => prevAngle + 1);
     }, 100); // 100 milliseconds = 0.1 second
     return () => {
       typed3.destroy(); // Clean up the Typed instance when the component unmounts

@@ -35,9 +35,21 @@
 {
     border: 2px solid red;
 } */
-/* 
+
 @media screen and (max-width: 1107px) {
   .webDevVideo{
         width: 300px;
   }
-} */
+}
+@media screen and (max-width: 770px) {
+  #About{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .aboutRight p{
+    font-size: 16px;
+  }
+
+}

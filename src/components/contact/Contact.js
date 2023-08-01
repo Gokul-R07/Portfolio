@@ -60,7 +60,7 @@ export const Contact = () => {
                 required
               ></textarea>
             </div>
-            <button className="btn">Send
+            <button className="btn sendBtn">Send
               <UilMessage/>
             </button>
           </form>

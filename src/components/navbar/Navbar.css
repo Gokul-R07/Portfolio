@@ -17,6 +17,14 @@
 .Navbar a:hover {
   transform: scale(1.1);
   text-decoration: underline overline;
+}
 
-
+@media screen and (max-width: 320px) {
+  .Navbar {
+    height: 70px;
+    width: 100%;
+    border-radius: 0px;
+    flex-direction: row;
+    z-index: 5;
+  }
 }

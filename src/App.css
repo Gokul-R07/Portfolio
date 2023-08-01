@@ -32,3 +32,15 @@
 .btn:hover {
   background-color: black;
 }
+
+@media screen and (max-width: 320px) {
+  .App {
+    flex-direction: column;
+  }
+  .otherSections {
+    padding-left: 0px;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
