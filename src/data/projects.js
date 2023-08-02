@@ -26,8 +26,8 @@ export const projects = [
     desc: "Created a visually engaging portfolio that demonstrates my expertise and abilities.",
     image: portfolio,
     techStack: "React JS,Redux JS",
-    github: "https://github.com/Gokul-R07/Ecommerce-website-Frontend",
-    liveUrl: "https://shopquick.vercel.app",
+    github: "https://github.com/Gokul-R07/Portfolio",
+    liveUrl: "https://gokulr-portfolio.vercel.app", 
   },
   {
     title: "Static Page",
@@ -35,7 +35,7 @@ export const projects = [
     image: staticPage,
     techStack: "React JS,CSS",
     github: "https://github.com/Gokul-R07/sample-Airbnb-webpage",
-    liveUrl: "https://sample-airbnb-webpage.netlify.app/",
+    liveUrl: "https://sample-airbnb-webpage.netlify.app",
   },
   {
     title: "Google Homepage",
@@ -43,6 +43,6 @@ export const projects = [
     image: googleHomepage,
     techStack: "Html,CSS,JS",
     github: "https://github.com/Gokul-R07/Google-Homepage",
-    liveUrl: "https://gokul-r07.github.io/Google-Homepage/",
+    liveUrl: "https://gokul-r07.github.io/Google-Homepage",
   },
 ];
