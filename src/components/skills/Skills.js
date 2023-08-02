@@ -9,7 +9,7 @@ import { programming } from "../../data/programming";
 const Skills = () => {
   return (
     <div id="Skills">
-      <h3 className="title">SKILLS</h3>
+      <h3 className="title skillTitle">SKILLS</h3>
       <p className="subTitle">My Technical skills</p>
       <br />
       <div className="skillsContainer" data-aos="fade-right">

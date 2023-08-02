@@ -32,7 +32,7 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   Github
-                  <UilGithubAlt />
+                  <UilGithubAlt className="projectIcon" />
                 </a>
                 <a
                   href={item.liveUrl}
@@ -41,7 +41,7 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   Live
-                  <UilEye />
+                  <UilEye className="projectIcon" />
                 </a>
               </div>
             </div>

@@ -1,6 +1,6 @@
 .projectImage {
   width: 90%;
-  height: 300px;
+  height: 280px;
   object-fit: contain;
 }
 .projects {
@@ -10,12 +10,12 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
-  gap: 20px;
+  gap: 30px;
 }
 .project {
   /* border: 2px solid black; */
   display: flex;
-  width: 43%;
+  width: 40%;
   box-shadow: 7px 7px 14px #a6a6a6, -7px -7px 14px #ffffff;
   border-radius: 10px;
 }
@@ -46,7 +46,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 25px;
+  padding: 10px 0px;
 }
 .projectDesc div {
   display: flex;
@@ -96,5 +96,20 @@
   }
   .project {
     width: 280px;
+  }
+  .projectDesc p{
+    font-size: 12px;
+  }
+  .projectImage{
+    height: 200px;
+  }
+  .projectDesc h4 {
+    font-size: 14px;
+  }
+  .projectBtn{
+    font-size: 12px;
+  }
+  .projectIcon{
+    width:20px;
   }
 }

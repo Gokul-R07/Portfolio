@@ -6,7 +6,6 @@ import webVideo from "../../images/web1.mp4";
 import resume from "../../images/resume.pdf";
 import { UilFileDownload } from "@iconscout/react-unicons";
 
-
 const About = () => {
   const handleDownloadCV = () => {
     // Create a temporary anchor element
@@ -25,21 +24,27 @@ const About = () => {
   };
 
   return (
-    <div id="About" >
+    <div id="About">
       <div className="aboutLeft">
         {/* <video src={webVideo} width="600" height="500" autoPlay muted loop /> */}
-        <video src={webVideo} width="500" height="400" autoPlay muted loop className="webDevVideo" />
+        <video
+          src={webVideo}
+          width="500"
+          height="400"
+          autoPlay
+          muted
+          loop
+          className="webDevVideo"
+        />
       </div>
       <div className="aboutRight" data-aos="fade-right">
-        <h3 className="title" >
-          ABOUT ME
-        </h3>
-        <p >
-          Welcome to the digital wonderland of a web developer's mind! 🌐✨
-          Unlocking boundless creativity with code, I invite you to explore my
-          pixel-perfect playground where innovation meets design. 🚀🎨 Step into
-          a world of captivating websites and cutting-edge solutions that
-          breathe life into your online aspirations! 💻🌟
+        <h3 className="title">ABOUT ME</h3>
+        <p>
+          I'm Gokul R, a passionate full stack developer and IT student driven
+          by a vision to craft cutting-edge web applications. With a deep
+          commitment to leading and inspiring teams, I thrive on staying ahead
+          of technology trends. Seeking an environment that fosters innovation
+          to drive transformative projects and make a meaningful impact.🚀
         </p>
         <button className="btn downloadBtn" onClick={handleDownloadCV}>
           Download CV
